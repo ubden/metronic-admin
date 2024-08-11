@@ -296,6 +296,13 @@
   dependencies:
     clipboard "^2.0.0"
 
+"@tinymce/tinymce-vue@^4.0.4":
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/@tinymce/tinymce-vue/-/tinymce-vue-4.0.7.tgz#811dd87a2a9f70e60c43c2d9d932771c0c8b4677"
+  integrity sha512-1esB8wGWrjPCY+rK8vy3QB1cxwXo7HLJWuNrcyPl6LOVR+QJjub0OiV/C+TUEsLN6OpCtRv+QnIqMC5vXz783Q==
+  dependencies:
+    tinymce "^5.5.0"
+
 "@types/body-parser@*":
   version "1.19.1"
   resolved "https://registry.yarnpkg.com/@types/body-parser/-/body-parser-1.19.1.tgz#0c0174c42a7d017b818303d4b5d969cb0b75929c"
@@ -2541,9 +2548,9 @@ decamelize@^1.2.0:
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 deep-equal@^1.0.1:
   version "1.1.1"
@@ -8012,6 +8019,11 @@ tiny-emitter@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-2.1.0.tgz#1d1a56edfc51c43e863cbb5382a72330e3555423"
   integrity sha512-NB6Dk1A9xgQPMoGqC5CVXn123gWyte215ONT5Pp5a0yt4nlEoO1ZWeCwpncaekPHXO60i47ihFnZPiRPjRMq4Q==
+
+tinymce@^5.5.0:
+  version "5.10.9"
+  resolved "https://registry.yarnpkg.com/tinymce/-/tinymce-5.10.9.tgz#1dfacb3231c71a688d90ff44a0b3f2e91b3b9edf"
+  integrity sha512-5bkrors87X9LhYX2xq8GgPHrIgJYHl87YNs+kBcjQ5I3CiUgzo/vFcGvT3MZQ9QHsEeYMhYO6a5CLGGffR8hMg==
 
 tmp@^0.0.33:
   version "0.0.33"
